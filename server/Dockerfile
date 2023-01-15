@@ -1,4 +1,4 @@
-FROM node:bullseye-slim
+FROM node:buster-slim
 WORKDIR /app
 COPY package.json ./
 COPY package-lock.json ./

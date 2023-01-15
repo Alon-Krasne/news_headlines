@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const apiKey = process.env.API_KEY || "c50bc9ba4b7b4e229f7788e5a3738aa3";
+const apiKey = process.env.API_KEY;
 const baseUrl = process.env.NEWS_URL || "https://newsapi.org/v2/top-headlines";
 
 const categories = [
